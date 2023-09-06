@@ -1,78 +1,73 @@
- [
+[
     {
-        BoardName: 'First Board',
-
-        BoardColums: [
+        "BoardName": "First Board",
+        "BoardColumns": [
             {
-                Status: 'Todos',
-                Task: [
+                "Status": "Todos",
+                "Task": [
                     {
-                        Taskname: 'My New Task',
-                        Description: 'This is my First task',
-                        Subtasks: [
+                        "Taskname": "My New Task",
+                        "Description": "This is my first task",
+                        "Subtasks": [
                             {
-                                list: 'list_one',
-                                checkbox: 'false'
+                                "list": "list_one",
+                                "checkbox": "false",
                             },
                             {
-                                list: 'list_two',
-                                checkbox: 'false'
+                                "list": "list_two",
+                                "checkbox": "false",
                             },
                             {
-                                list: 'list_three',
-                                checkbox: 'false'
+                                "list": "list_three",
+                                "checkbox": "false"
                             }
-                        ],
-                        CurrentTask: 'Todos'
-                    }
-                ]
-            },
-
-            {
-                Status: 'Doing',
-                Task: [
-                    {
-                        Taskname: 'Current Task',
-                        Description: 'This is my Current task',
-                        Subtasks: [
-                            {
-                                list: 'list_one',
-                                checkbox: 'false'
-                            },
-                            {
-                                list: 'list_two',
-                                checkbox: 'false'
-                            },
-                            {
-                                list: 'list_three',
-                                checkbox: 'false'
-                            }
-                        ],
-                        CurrentTask: 'Doing'
+                        ]
                     }
                 ]
             },
             {
-                Status: 'Finish',
-                Task: [
+                "Status": "Doing",
+                "Task": [
                     {
-                        Taskname: 'Finish Task',
-                        Description: 'This is My Finish task',
-                        Subtasks: [
+                        "Taskname": "Current Task",
+                        "Description": "This is my Current task",
+                        "Subtasks": [
                             {
-                                list: 'list_one',
-                                checkbox: 'false'
+                                "list": "list_one",
+                                "checkbox": "false"
                             },
                             {
-                                list: 'list_two',
-                                checkbox: 'false'
+                                "list": "list_two",
+                                "checkbox": "false"
                             },
                             {
-                                list: 'list_three',
-                                checkbox: 'false'
+                                "list": "list_three",
+                                "checkbox": "false"
                             }
-                        ],
-                        CurrentTask: 'Finish'
+                        ]
+                    }
+                ]
+            },
+            {
+                "Status": "Finish",
+                "Task": [
+                    {
+                        "Taskname": "Finish Task",
+                        "Description": "This is My Finish task",
+                        "Subtasks": [
+                            {
+                                "list": "list_one",
+                                "checkbox": "false"
+                            },
+                            {
+                                "list": "list_two",
+                                "checkbox": "false"
+                            },
+                            {
+                               "list": "list_three",
+                                "checkbox": "false"
+                            }
+                        ]
                     }
                 ]
             }
