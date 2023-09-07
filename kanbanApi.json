@@ -21,7 +21,8 @@
                                 "list": "list_three",
                                 "checkbox": "false"
                             }
-                        ]
+                        ],
+                        "CurrentStatus": "Todo"
                     }
                 ]
             },
@@ -44,7 +45,8 @@
                                 "list": "list_three",
                                 "checkbox": "false"
                             }
-                        ]
+                        ],  
+                         "CurrentStatus": "Doing",
                     }
                 ]
             },
@@ -68,6 +70,7 @@
                                 "checkbox": "false"
                             }
                         ]
+                         "CurrentStatus": "Finish",
                     }
                 ]
             }
