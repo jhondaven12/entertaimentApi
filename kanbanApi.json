@@ -1,4 +1,5 @@
-{
+[
+  {
   "boards": [
     {
       "name": "Platform Launch",
@@ -431,3 +432,4 @@
     }
   ]
 }
+]
